@@ -1,0 +1,41 @@
+# Arquivos e diretórios específicos para ambiente virtual
+venv/
+env/
+*.pyc
+
+# Arquivos de saída e cache de Plotly
+__pycache__/
+*.pyc
+*.pyo/
+*.pyd/
+__pycache__/
+.buildo/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.dist/
+.cache/
+dist/
+*.egg-info/
+.db
+
+# Arquivos gerados por sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*~
+
+# Arquivos de configuração e segredos (substitua pelo seu arquivo de configuração)
+config.json
+secrets.json
+
+.vscode
+
+# Arquivos de dependências (substitua pelo seu gerenciador de dependências)
+requirements.txt
